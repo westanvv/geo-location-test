@@ -1,0 +1,37 @@
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+# vim artifacts
+*.swp
+*.swo
+
+# VS Code
+/.vscode/*
+
+# Mac finder artifacts
+.DS_Store
+
+# environment variables
+.env
+.ENV
+
+# simple cov test coverage assets
+coverage
+*.coverprofile
+coverage.html
+
+# builds
+build
+
+# debug builds
+**/debug
+**/debug.test
+
+# IDE related
+*.pyc
+*.iml
+vcs.xml
+.idea/*
+andys*
